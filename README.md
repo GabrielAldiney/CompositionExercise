@@ -20,7 +20,8 @@ This is a simple order management system developed in Java using object-oriented
 ![image](https://github.com/user-attachments/assets/50ca7a5f-c0ea-4e4e-bfc8-753b15112795)
 
 ## 🎯 Result obtained
-![image](https://github.com/user-attachments/assets/b442ffeb-531d-40f0-ac06-d4df58e13b24)
+![image](https://github.com/user-attachments/assets/44f9bd81-2de2-4830-b4e5-7fc856de2667)
+
 
 
 ## 🧱 Project Structure
