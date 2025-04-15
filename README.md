@@ -1,7 +1,7 @@
 # 🛒 Order Management System in Java
 
 
-This small project was an exercise to reinforce the Java course of the great professor Nélio Alves.
+This small project was an exercise to reinforce the Java course of the great teacher Nélio Alves.
 This is a simple order management system developed in Java using object-oriented programming principles. It allows client and product registration, as well as the creation of orders with multiple items.
 
 ## 🎯 objective
