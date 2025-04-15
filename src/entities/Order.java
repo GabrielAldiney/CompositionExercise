@@ -43,9 +43,9 @@ public class Order {
 		StringBuilder sb = new StringBuilder();
 		
 		sb.append("Order Moment: " + sdf.format(moment) + "\n");
-		String dmy = sdf.format(moment);
+		String dmy = sdf.format(client.getBirthDate());
 		sb.append("Order Status: " + status + "\n");
-		sb.append("Cliente: " + client.getName() + " (" + dmy.substring(0, 9) + ") " + "- " + client.getEmail() + "\n");
+		sb.append("Cliente: " + client.getName() + " (" + dmy.substring(0, 10) + ") " + "- " + client.getEmail() + "\n");
 		sb.append("Order items: " + "\n");
 		for(OrderItem oi : items){
 			sb.append(oi);

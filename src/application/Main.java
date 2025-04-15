@@ -16,7 +16,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
-		SimpleDateFormat sdf = new SimpleDateFormat ("dd/MM/YYYY");
+		SimpleDateFormat sdf = new SimpleDateFormat ("dd/MM/yyyy");
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Name: \n"); 
