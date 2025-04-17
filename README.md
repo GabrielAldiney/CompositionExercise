@@ -1,54 +1,56 @@
-# 🛒 Order Management System in Java
+🛒 Sistema de Gerenciamento de Pedidos em Java
+Este pequeno projeto foi um exercício para reforçar o curso de Java do grande professor Nélio Alves.
+Trata-se de um sistema simples de gerenciamento de pedidos desenvolvido em Java utilizando princípios de programação orientada a objetos. Ele permite o cadastro de clientes e produtos, bem como a criação de pedidos com múltiplos itens.
 
-
-This small project was an exercise to reinforce the Java course of the great teacher Nélio Alves.
-This is a simple order management system developed in Java using object-oriented programming principles. It allows client and product registration, as well as the creation of orders with multiple items.
-
-## 🎯 objective
+🎯 Objetivo
 ![image](https://github.com/user-attachments/assets/013ff145-c4a3-40c5-bc08-4ab51ce97da7)
 ![image](https://github.com/user-attachments/assets/1beaddb7-e1d7-4d3d-8f34-03378169555d)
 
-## 📦 Features
+📦 Funcionalidades
+Cadastro de cliente (nome, e-mail, data de nascimento)
 
-- Client registration (name, email, birth date)
-- Product registration
-- Adding items to an order
-- Automatic calculation of total price
-- Formatted display of the order summary
+Cadastro de produto
 
-## 🎯 Expected result
+Adição de itens a um pedido
+
+Cálculo automático do preço total
+
+Exibição formatada do resumo do pedido
+
+🎯 Resultado Esperado
 ![image](https://github.com/user-attachments/assets/50ca7a5f-c0ea-4e4e-bfc8-753b15112795)
 
-## 🎯 Result obtained
+🎯 Resultado Obtido
 ![image](https://github.com/user-attachments/assets/44f9bd81-2de2-4830-b4e5-7fc856de2667)
 
+🧱 Estrutura do Projeto
+Main.java: ponto de entrada da aplicação
 
+Order.java: representa o pedido, incluindo cliente, data, status e itens
 
-## 🧱 Project Structure
+OrderItem.java: representa um item do pedido (produto, quantidade e preço)
 
-- `Main.java`: entry point of the application  
-- `Order.java`: represents the order, including client, date, status, and items  
-- `OrderItem.java`: represents an item in the order (product, quantity, and price)  
-- `Product.java`: represents the product  
-- `Client.java`: represents the client  
-- `OrderStatus.java`: enum for the order status (`PENDING`, `PROCESSING`, `SHIPPED`, `DELIVERED`)
+Product.java: representa o produto
 
-## 🛠️ Technologies
+Client.java: representa o cliente
 
-- Java 17+
-- Eclipse IDE (or any compatible IDE)
-- Date formatting with `SimpleDateFormat`
+OrderStatus.java: enum para o status do pedido (PENDING, PROCESSING, SHIPPED, DELIVERED)
 
-## ▶️ How to Run
+🛠️ Tecnologias
+Java 17+
 
-1. Clone the repository  
-2. Compile the `.java` files  
-3. Run `Main.java`  
-4. Enter the required data in the terminal when prompted
+Eclipse IDE (ou qualquer IDE compatível)
 
----
+Formatação de datas com SimpleDateFormat
 
+▶️ Como Executar
+Clone o repositório
 
+Compile os arquivos .java
 
-💡 *This project is great for practicing encapsulation, object composition, and enum usage in Java.*
+Execute o Main.java
+
+Insira os dados solicitados no terminal quando for pedido
+
+💡 Este projeto é ótimo para praticar encapsulamento, composição de objetos e uso de enums em Java.
 
